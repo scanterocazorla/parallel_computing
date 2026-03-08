@@ -27,10 +27,3 @@ The primality test is parallelized using OpenMP threads that divide the
 search space among themselves.
 
 Each thread tests a subset of possible divisors.
-
-
-gcc -fopenmp primo_grande.c -o primo_grande -lm
-
-## Execution
-
-./primo_grande
