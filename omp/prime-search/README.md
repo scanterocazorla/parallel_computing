@@ -13,14 +13,6 @@ The loop that tests numbers for primality is parallelized using:
 
 A reduction clause is used to safely accumulate the number of primes found.
 
-## Compilation
-
-gcc -fopenmp primo_numeros.c -o primo_numeros -lm
-
-## Execution
-
-./primo_numeros
-
 # Largest Prime Search (OpenMP)
 
 This program searches for the largest prime number that can be represented
@@ -36,7 +28,6 @@ search space among themselves.
 
 Each thread tests a subset of possible divisors.
 
-## Compilation
 
 gcc -fopenmp primo_grande.c -o primo_grande -lm
 
