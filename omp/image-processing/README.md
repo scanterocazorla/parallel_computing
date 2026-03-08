@@ -17,13 +17,6 @@ Each thread processes different rows of the image independently.
 Input image: `peppers.ppm`  
 Output image: `peppers-fil.ppm`
 
-## Compilation
-
-Compile with OpenMP support: gcc -fopenmp imagenes.c -o imagenes
-
-## Execution
-
-./imagenes
 The program will:
 
 1. Read the input image
